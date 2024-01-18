@@ -1,10 +1,26 @@
-<!-- insert the markup below in a header template part -->
 <style>
-    /* Hide the MegaMenu */
+    /* White space top */
+    nav {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+    }
+    /* MenuBar */
+    #menuBar {
+      color: #fff;
+      background-color: #000;
+    }
+
+    #menuBar a {
+      color: #73f27c;
+    }
+
+    /* Hide MegaMenu */
     #megaMenu {
         display: none;
         min-height: 100vh;
-        background-color: hsl(135, 64%, 73%);
+        background-color: hsl(135, 77%, 48%);
     }
 
     /* Rows */
@@ -16,14 +32,13 @@
     /* Tab: 33% */
     .tab {
         width: 33.333%;
-        border: 1px silver dotted;
+        /* border: 1px silver dotted; */
+        padding: 1.3rem;
     }
 
     #hideMega {
-        position: relative;
-        font-size: 2rem;
-        width: 100px;
-        float: right;
+        color: #fff;
+        background-color: darkred;
     }
 
     /* Breakpoints (... add more ...) */
@@ -39,25 +54,25 @@
 </style>
 <nav>        
 <section id="menuBar">
-        <a href="#">Home</a>
+
+<!-- wp:site-logo /-->
+
+<a href="https://thoth.dk/">Home</a>
         <a href="#" id="megaVisible" class="dropDown">Dropdown</a>
     </section>
     <section id="megaMenu">
-        <div class="row">
+        
             <div id="hideMega">X</div>    
-        </div>
+        
         
         <div class="row">
             <div class="tab">
+
 <!-- wp:image {"id":968,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full">
-<img 
-   src="https://thoth.dk/wp-content/uploads/2023/03/image-4.png" 
-   alt="" 
-   class="wp-image-968"/>
-</figure>
+<figure class="wp-block-image size-full"><img src="https://thoth.dk/wp-content/uploads/2023/03/image-4.png" alt="" class="wp-image-968"/></figure>
 <!-- /wp:image -->
-                <ul>
+
+<ul>
                     <li>item 1</li>
                     <li>item 2</li>
                     <li>item 3</li>
@@ -65,16 +80,33 @@
                 </ul>
             </div>
             <div class="tab">
-               <!-- wp:navigation {"ref":62,"overlayMenu":"never","layout":{"type":"flex","justifyContent":"center","orientation":"vertical"}} /-->
-        
-            </div>
+
+<!-- wp:navigation {"ref":62,"overlayMenu":"never","layout":{"type":"flex","justifyContent":"center","orientation":"vertical"}} /-->
+
+<!-- wp:image {"id":968,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://thoth.dk/wp-content/uploads/2023/03/image-4.png" alt="" class="wp-image-968"/></figure>
+<!-- /wp:image -->
+
+</div>
             <div class="tab">
-              <!-- wp:navigation {"ref":44,"overlayMenu":"never","layout":{"type":"flex","justifyContent":"center","orientation":"vertical"}} /-->
-       
-            </div>
+
+<!-- wp:image {"id":968,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://thoth.dk/wp-content/uploads/2023/03/image-4.png" alt="" class="wp-image-968"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:navigation {"ref":44,"overlayMenu":"never","layout":{"type":"flex","justifyContent":"center","orientation":"vertical"}} /-->
+
+</div>
         </div>
     </section>
 </nav>
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-content /--></div>
+<!-- /wp:group -->
+
 <script>
     /* Mouse Events / Clicks */
 
@@ -91,3 +123,5 @@
     }
     // @url: https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
 </script>
+
+<!-- wp:template-part {"slug":"footer","theme":"twentytwentythree","area":"footer"} /-->
