@@ -7,12 +7,13 @@ Steps:
 * Create the mega menu in HTML
 * CSS: hide and style the mega menu
 * JavaScript: use an event to show and hide the mega menu
+* See: `megaMenu.html`
 
 ## B) WordPress Markup (WPML)
 
 Remove the unessecary parts of the HTML. Then add the code for images and menu part. Do the layout work in Gutenberg, but copy the code from the editor.
 
-* Result, see: wordpress-markup.html
+* See: wordpress-markup.html
 
 ## WPML sample
 
