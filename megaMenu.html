@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megamenu</title>
+    <style>
+        /* Hide MegaMenu */
+        #megaMenu {
+            display: none;
+            min-height: 100vh;
+            background-color: hsl(135, 64%, 73%);
+        }
+
+        /* Rows */
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Tab: 33% */
+        .tab {
+            width: 33.333%;
+            border: 1px silver dotted;
+        }
+
+        #hideMega {
+            position: relative;
+            font-size: 2rem;
+            width: 100px;
+            float: right;
+        }
+
+        /* Breakpoints (... add more ...) */
+        @media only screen and (max-width: 600px) {
+            .row {
+                display: block;    
+            }
+            .tab {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <section id="menuBar">
+            <a href="#">Home</a>
+            <a href="#" id="megaVisible" class="dropDown">Dropdown</a>
+        </section>
+        <section id="megaMenu">
+            <div class="row">
+                <div id="hideMega">X</div>    
+            </div>
+            
+            <div class="row">
+                <div class="tab">
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                        <li>item 4</li>
+                    </ul>
+                </div>
+                <div class="tab">
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                        <li>item 4</li>
+                    </ul>
+                </div>
+                <div class="tab">
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                        <li>item 4</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </nav>
+
+    <main>
+        <h1>Mega Menu</h1>
+        <p>Made with HTML, CSS and JavaScript</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptate doloremque quae vel dolores! Magni nostrum blanditiis in earum, obcaecati doloremque natus neque consequuntur doloribus vero numquam odit animi accusantium.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat delectus suscipit maiores illo quas sunt ea. Dicta officiis qui a ipsum, eligendi sed vel harum obcaecati libero, distinctio magni.</p>
+    </main>
+
+    <script>
+        /* Mouse Events / Clicks */
+
+        // show the menu
+        megaVisible.onmouseover = (event) => {
+            console.log(event)
+            megaMenu.style.display ="block"
+        }
+
+        // hide the menu
+        hideMega.onclick = (event) => {
+            console.log(event)
+            megaMenu.style.display = "none"
+        }
+        // @url: https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+    </script>
+</body>
+</html>
