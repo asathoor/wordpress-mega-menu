@@ -1,6 +1,12 @@
 # Megamenu Template Part
 
-Steps:
+In this tutorial you'll lear how to add custom markup, styles and scripts to a block-based WordPress theme. Case: add your own mega menu.
+
+First we'll create the mega menu as normal HTML with styles and a script. When everything works we'll remove the things from the code, that WP added beforehand. Make sure that the order is:
+
+* I) CSS
+* II) HTML
+* III) JavaScript
 
 ## A) In an ordinary editor 
 
@@ -27,15 +33,26 @@ The WPML is a comment with JSON that will define the settings of the blocks. Her
             "layout": {
                 "type":"flex",
                 "justifyContent":"center",
-                "orientation":"vertical"}
+                "orientation":"vertical"
+                }
     } 
 /-->
 ~~~~
 
-You don't have to remember all these settings, just do the work in Gutenberg and copy the markup from the blocks.
+### Create Your WPML by Gutenberg
+
+You don't have to remember all these more or less weird JSON settings, just do the work in Gutenberg and copy the markup from the blocks.
 
 Now you can copy this WPML to your HTML, and in this case a WP menu will appear where you put it in the mega menu.
 
-## C) Create a template part
+## C) Create a template part 
 
-Now you can create a template part. In this case I'd use a header template part. Then copy our WPML to the template part. Now you can add the new header to all relevant templates. And then you'll have a theme with a mega menu.
+Now you can create a template part. Go to Dashboard > Appearance > Editor > Patterns and create a headder template part. Then copy the content of `wordpress-markup.html` to the template part. 
+
+Save your new header.
+
+Then you can add the new header to all relevant templates. And then you'll have a theme with a mega menu.
+
+## But Why do all this?
+
+The mega menu demonstrate that you can add your own HTML, CSS and JavaScript to any part of your WordPress solution. If for some reason you cannot create something, that you know how to do with conventional code - you can do it!
