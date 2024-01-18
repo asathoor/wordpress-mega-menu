@@ -77,3 +77,5 @@ An easy way to design a more complex menu would be this:
 ~~~~
 
 Since the CSS and JavaScript will hide and display whatever you place here, you'll be able to have a megamenu with your own design elements.
+
+In case you do this, you don't need the responsive rules, since WP will take care of this ... that is: in theory.
