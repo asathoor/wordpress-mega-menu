@@ -55,4 +55,4 @@ Then you can add the new header to all relevant templates. And then you'll have 
 
 ## But Why do all this?
 
-The mega menu demonstrate that you can add your own HTML, CSS and JavaScript to any part of your WordPress solution. If for some reason you cannot create something, that you know how to do with conventional code - you can do it!
+The mega menu demonstrates that you can add your own HTML, CSS and JavaScript to any part of your WordPress solution. If for some reason you cannot create something, that you know how to do with conventional code - you can do it!
