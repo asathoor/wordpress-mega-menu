@@ -8,6 +8,8 @@ First we'll create the mega menu as normal HTML with styles and a script. When e
 * II) HTML
 * III) JavaScript
 
+You can see a demonstration of the mega menu [here](https://thoth.dk/index.php/2024/01/17/mega-menu-2/)
+
 ## A) In an ordinary editor 
 
 * Create the mega menu in HTML
