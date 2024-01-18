@@ -58,3 +58,22 @@ Then you can add the new header to all relevant templates. And then you'll have 
 ## But Why do all this?
 
 The mega menu demonstrates that you can add your own HTML, CSS and JavaScript to any part of your WordPress solution. If for some reason you cannot create something, that you know how to do with conventional code - you can do it!
+
+## Occam's Razor
+
+An easy way to design a more complex menu would be this:
+
+* Design whatever should appear inside the mega menu in Gutenberg.
+* Change to code view.
+* Remove all code inside the section with the id megamenu
+
+~~~~
+ <section id="megaMenu">
+    <div id="hideMega">X</div>    
+
+        <!-- paste the WPML here --->
+   
+ </section>
+~~~~
+
+Since the CSS and JavaScript will hide and display whatever you place here, you'll be able to have a megamenu with your own design elements.
