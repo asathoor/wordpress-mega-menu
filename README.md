@@ -15,7 +15,7 @@ Remove the unessecary parts of the HTML. Then add the code for images and menu p
 
 * See: wordpress-markup.html
 
-## WPML sample
+### WPML sample
 
 The WPML is a comment with JSON that will define the settings of the blocks. Here is the markup for a menu with the reference 62:
 
@@ -35,3 +35,7 @@ The WPML is a comment with JSON that will define the settings of the blocks. Her
 You don't have to remember all these settings, just do the work in Gutenberg and copy the markup from the blocks.
 
 Now you can copy this WPML to your HTML, and in this case a WP menu will appear where you put it in the mega menu.
+
+## C) Create a template part
+
+Now you can create a template part. In this case I'd use a header template part. Then copy our WPML to the template part. Now you can add the new header to all relevant templates. And then you'll have a theme with a mega menu.
