@@ -101,4 +101,4 @@ Now you'll have a page with a mega menu. It may need a little styling, but the b
 
 * The theme is created via [Carolina Nymarks theme generator.](https://fullsiteediting.com/block-theme-generator/)
 
-* The content inside the mega menu is copied from [this free WP Pattern](https://wordpress.org/patterns/pattern/video-background-section/)
+* The content inside the mega menu is copied from [this free WP Pattern](https://wordpress.org/patterns/pattern/video-background-section/) by [narolainfotech](https://wordpress.org/patterns/author/narolainfotech).
