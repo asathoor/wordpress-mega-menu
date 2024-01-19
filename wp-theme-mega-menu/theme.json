@@ -364,11 +364,6 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
-		},
-		{
-			"area": "mega-menu",
-			"name": "mega-menu",
-			"title": "Megamenu"
 		}
 	],
 	"version": 2

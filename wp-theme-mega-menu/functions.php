@@ -29,9 +29,9 @@ add_action( 'wp_enqueue_scripts', 'mega_menu_styles' );
  * Special Scripts and Styles
  */
 function petj_mega_menu() {
-    // CSS
+    // below a css file
     wp_enqueue_style( 'CSS_Mega_Menu', get_template_directory_uri() . '/assets/css/css.css' );
-    // JavaScript
+    // below a script
     wp_enqueue_script( 'JS_Mega_Menu', get_template_directory_uri() . '/assets/js/js.js', array(), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'petj_mega_menu' );
