@@ -1,0 +1,11 @@
+/* Mega Menu CSS */
+main {
+    min-height: 100vh !important;
+}  
+  #megaMenu {
+    display: none;
+  }
+  #hideMega {
+    min-height: 56px;
+    cursor: alias; /* alternative cursor */
+  }

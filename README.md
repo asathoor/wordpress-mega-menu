@@ -79,3 +79,26 @@ An easy way to design a more complex menu would be this:
 Since the CSS and JavaScript will hide and display whatever you place here, you'll be able to have a megamenu with your own design elements.
 
 In case you do this, you don't need the responsive rules, since WP will take care of this ... that is: in theory.
+
+## WP Theme: Experimental Demonstration
+
+In the folder `wp-theme-mega-menu` you'll find small WP with a mega menu based on the code above. How to install and use the theme:
+
+* Download or clone this repo
+* Zip the directory `wp-theme-mega-menu` 
+* Open a WordPress and go to
+* Dashboard > Appearance > Themes > New
+* Install from file, and select your zip file
+
+As soon as the theme is installed do this:
+
+* Create a page
+* Assign the template Mega Menu to the page
+
+Now you'll have a page with a mega menu. It may need a little styling, but the basic functionality is there.
+
+## Sources
+
+* The theme is created via [Carolina Nymarks theme generator.](https://fullsiteediting.com/block-theme-generator/)
+
+* The content inside the mega menu is copied from [this free WP Pattern](https://wordpress.org/patterns/pattern/video-background-section/)
